@@ -9,5 +9,6 @@
   	<module>ecommunicate.ibeacon.dao</module>
   	<module>ecommunicate.ibeacon.web</module>
   	<module>ecommunicate.ibeacon.test</module>
+  	<module>ecommunicate.ibeacon.service</module>
   </modules>
 </project>
