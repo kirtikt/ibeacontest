@@ -6,9 +6,11 @@
 	<persistence-unit name="ibeacon-persistence">
 		<provider>org.hibernate.ejb.HibernatePersistence</provider>
 
+<class>ecommunicate.ibeacon.persistence.entities.IbecconDevice</class>
+		<class>ecommunicate.ibeacon.persistence.entities.Retailer</class>
+		<class>ecommunicate.ibeacon.persistence.entities.Offers</class>
 
-<!-- 		<class>ecomm.loadshedding.persistence.entities.ErrorMessage</class>
- -->
+
 		<!-- <shared-cache-element>ENABLE_SELECTIVE</shared-cache-element> -->
 		<properties>
 			<property name="hibernate.connection.driver_class" value="org.postgresql.Driver" />

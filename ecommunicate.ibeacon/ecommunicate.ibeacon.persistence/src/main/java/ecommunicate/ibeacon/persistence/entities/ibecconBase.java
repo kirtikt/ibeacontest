@@ -7,12 +7,11 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.MappedSuperclass;
-
 @MappedSuperclass
 public class ibecconBase implements Serializable{
-	  @Id
+	  	@Id
 	    @GeneratedValue(strategy= GenerationType.AUTO)
-	    @Column(name="\"ID\"")
+	    @Column(name="id")
 	    private int id;
 
 

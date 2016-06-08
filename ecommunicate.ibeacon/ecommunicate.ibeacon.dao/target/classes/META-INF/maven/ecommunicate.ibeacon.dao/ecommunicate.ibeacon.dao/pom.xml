@@ -10,6 +10,13 @@
   <packaging>ejb</packaging>
   
   <dependencies>
+  <dependency>
+   <groupId>ecommunicate.ibeacon.persistence</groupId>
+  <artifactId>ecommunicate.ibeacon.persistence</artifactId>
+      <version>0.0.1-SNAPSHOT</version>
+  
+  </dependency>
+  
   	<!-- For Testng -->
 		<dependency>
 			<groupId>org.testng</groupId>

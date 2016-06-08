@@ -14,8 +14,8 @@ public class Retailer extends ibecconBase{
 	@Column(name="description")
 	private String desc;
 	@ManyToOne
-	@JoinColumn(name = "Id_systemUser")
-	private IbecconDevice systemUser;
+	@JoinColumn(name = "retailer")
+	private IbecconDevice ibeacondev;
 	public String getRetailername() {
 		return retailername;
 	}
@@ -28,13 +28,13 @@ public class Retailer extends ibecconBase{
 	public void setDesc(String desc) {
 		this.desc = desc;
 	}
-	public IbecconDevice getSystemUser() {
-		return systemUser;
+	public IbecconDevice getIbeacondev() {
+		return ibeacondev;
 	}
-	public void setSystemUser(IbecconDevice systemUser) {
-		this.systemUser = systemUser;
+	public void setIbeacondev(IbecconDevice ibeacondev) {
+		this.ibeacondev = ibeacondev;
 	}
-	 
+	
 	
 	
 

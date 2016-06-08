@@ -21,7 +21,7 @@ public class IbecconDevice extends ibecconBase {
 	@Column(name="minorfeel")
 	private String minorfeel;
 	
-	@OneToMany(mappedBy="systemUser",cascade=CascadeType.ALL)
+	@OneToMany(mappedBy="ibeacondev",cascade=CascadeType.ALL)
 	 private List<Retailer> retailer;
 	
 	public List<Retailer> getRetailer() {
