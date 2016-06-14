@@ -9,12 +9,12 @@ import javax.ws.rs.core.Response;
 public class OfferQueryRequest {
 	
 	
-	     @GET
-	     @Path("/get")
-	    public Response getOffer() {
-	
-	System.out.println("in offer query request");
-	return Response.status(200).build();
+	@GET
+	@Path("/get")
+	public Response getOffer() {
+
+		System.out.println("in offer query request");
+		return Response.status(200).build();
 
 	}
 

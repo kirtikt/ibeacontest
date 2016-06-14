@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="4177" started-at="2016-06-08T11:27:40Z" finished-at="2016-06-08T11:27:44Z">
+  <suite name="Default suite" duration-ms="3796" started-at="2016-06-09T13:47:02Z" finished-at="2016-06-09T13:47:06Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="4177" started-at="2016-06-08T11:27:40Z" finished-at="2016-06-08T11:27:44Z">
+    <test name="Default test" duration-ms="3796" started-at="2016-06-09T13:47:02Z" finished-at="2016-06-09T13:47:06Z">
       <class name="ecommunicate.ibeacon.dao.test.dbtester">
-        <test-method status="PASS" signature="intialize()[pri:0, instance:ecommunicate.ibeacon.dao.test.dbtester@79b4d0f]" name="intialize" is-config="true" duration-ms="4164" started-at="2016-06-08T16:57:40Z" finished-at="2016-06-08T16:57:44Z">
+        <test-method status="PASS" signature="intialize()[pri:0, instance:ecommunicate.ibeacon.dao.test.dbtester@5cb9f472]" name="intialize" is-config="true" duration-ms="3480" started-at="2016-06-09T19:17:02Z" finished-at="2016-06-09T19:17:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- intialize -->
-        <test-method status="PASS" signature="f()[pri:0, instance:ecommunicate.ibeacon.dao.test.dbtester@79b4d0f]" name="f" duration-ms="3" started-at="2016-06-08T16:57:44Z" finished-at="2016-06-08T16:57:44Z">
+        <test-method status="PASS" signature="f()[pri:0, instance:ecommunicate.ibeacon.dao.test.dbtester@5cb9f472]" name="f" duration-ms="303" started-at="2016-06-09T19:17:05Z" finished-at="2016-06-09T19:17:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->

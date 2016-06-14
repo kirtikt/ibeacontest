@@ -1,0 +1,25 @@
+#truncateMessage {
+width: 250px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+a:hover{
+	 background-color: yellow;
+	  text-decoration: underline;
+}
+a:visited {
+    color: green;
+}
+
+a:active {
+    color: blue;
+     text-decoration: underline;
+}
+
+.handcursor {
+	cursor:pointer;
+}
+li {cursor: hand; }

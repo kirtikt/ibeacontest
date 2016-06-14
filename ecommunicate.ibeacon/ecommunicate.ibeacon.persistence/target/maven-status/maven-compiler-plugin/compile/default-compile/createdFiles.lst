@@ -1,3 +1,8 @@
-ecommunicate\ibeacon\persistence\entities\IbecconDevice.class
+ecommunicate\ibeacon\persistence\utility\JndiLookup.class
 ecommunicate\ibeacon\persistence\entities\Retailer.class
+ecommunicate\ibeacon\persistence\facade\OffersDaoInterface.class
 ecommunicate\ibeacon\persistence\entities\ibecconBase.class
+ecommunicate\ibeacon\persistence\entities\Offers.class
+ecommunicate\ibeacon\persistence\facade\IbecconDeviceInterface.class
+ecommunicate\ibeacon\persistence\entities\IbecconDevice.class
+ecommunicate\ibeacon\persistence\facade\RetailerDaoInterface.class

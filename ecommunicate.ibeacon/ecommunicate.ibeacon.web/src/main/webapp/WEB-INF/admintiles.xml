@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+   "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+   "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+<tiles-definitions>
+	<definition name="base.definition" template="/WEB-INF/pages/Template/backgroundTemplate.jsp">
+		<put-attribute name="title" value=""></put-attribute>
+		<put-attribute name="header" value="/WEB-INF/pages/Template/adminMenu.jsp"></put-attribute>
+		<!-- <put-attribute name="menu" value="/WEB-INF/pages/Theme/Template/menu.jsp"></put-attribute> -->
+		<put-attribute name="body" value=""></put-attribute>
+	<!-- 	<put-attribute name="footer" value="/WEB-INF/pages/Theme/Template/Footer.jsp"></put-attribute> -->
+	</definition>
+
+
+
+	<definition extends="base.definition" name="home">
+		<put-attribute name="title" value="Home"></put-attribute>
+				<!-- <put-attribute name="header" value="/WEB-INF/pages/Theme/Template/sideBar/admin/adminhomeMenu.jsp"></put-attribute> -->
+		
+		<put-attribute name="body"
+			value="/WEB-INF/pages/Theme/Admin/home.jsp"></put-attribute>
+			
+	</definition>
+	
+		<definition extends="base.definition" name="addUser">
+		<put-attribute name="title" value="addUser"></put-attribute>
+				<!-- <put-attribute name="header" value="/WEB-INF/pages/Theme/Template/sideBar/admin/adminhomeMenu.jsp"></put-attribute> -->
+		
+		<put-attribute name="body"
+			value="/WEB-INF/pages/Theme/Admin/AddUser.jsp"></put-attribute>
+			
+	</definition>
+	<definition extends="base.definition" name="dashboard">
+		<put-attribute name="title" value="addUser"></put-attribute>
+				<!-- <put-attribute name="header" value="/WEB-INF/pages/Theme/Template/sideBar/admin/adminhomeMenu.jsp"></put-attribute> -->
+		
+		<put-attribute name="body"
+			value="/WEB-INF/pages/Theme/Admin/Dashboard.jsp"></put-attribute>
+			
+	</definition>
+	<definition extends="base.definition" name="updateUrl">
+		<put-attribute name="title" value="addUser"></put-attribute>
+				<!-- <put-attribute name="header" value="/WEB-INF/pages/Theme/Template/sideBar/admin/adminhomeMenu.jsp"></put-attribute> -->
+		
+		<put-attribute name="body"
+			value="/WEB-INF/pages/Theme/Admin/updateUrl.jsp"></put-attribute>
+			
+	</definition>
+	<definition extends="base.definition" name="simulator">
+		<put-attribute name="title" value="simulator"></put-attribute>
+				<!-- <put-attribute name="header" value="/WEB-INF/pages/Theme/Template/sideBar/admin/adminhomeMenu.jsp"></put-attribute> -->
+		
+		<put-attribute name="body"
+			value="/WEB-INF/pages/Theme/Admin/Simulator.jsp"></put-attribute>
+			
+	</definition>
+	<definition extends="base.definition" name="importExcel">
+		<put-attribute name="title" value="importExcel"></put-attribute>
+				<!-- <put-attribute name="header" value="/WEB-INF/pages/Theme/Template/sideBar/admin/adminhomeMenu.jsp"></put-attribute> -->
+		
+		<put-attribute name="body"
+			value="/WEB-INF/pages/Theme/Admin/importExcel.jsp"></put-attribute>
+			
+	</definition>
+	<definition extends="base.definition" name="provinceAlias">
+		<put-attribute name="title" value="importExcel"></put-attribute>
+				<!-- <put-attribute name="header" value="/WEB-INF/pages/Theme/Template/sideBar/admin/adminhomeMenu.jsp"></put-attribute> -->
+		
+		<put-attribute name="body"
+			value="/WEB-INF/pages/Theme/Admin/provinceAlias.jsp"></put-attribute>
+			
+	</definition>
+	<definition extends="base.definition" name="errorMessage">
+		<put-attribute name="title" value="importExcel"></put-attribute>
+				<!-- <put-attribute name="header" value="/WEB-INF/pages/Theme/Template/sideBar/admin/adminhomeMenu.jsp"></put-attribute> -->
+		
+		<put-attribute name="body"
+			value="/WEB-INF/pages/Theme/Admin/errorMessage.jsp"></put-attribute>
+			
+	</definition>
+	<definition extends="base.definition" name="importLoadShedExcel">
+		<put-attribute name="title" value="importExcel"></put-attribute>
+				<!-- <put-attribute name="header" value="/WEB-INF/pages/Theme/Template/sideBar/admin/adminhomeMenu.jsp"></put-attribute> -->
+		
+		<put-attribute name="body"
+			value="/WEB-INF/pages/Theme/Admin/importLoadShedExcel.jsp"></put-attribute>
+			
+	</definition>
+	
+	
+		<definition extends="base.definition" name="showOutput">
+		<put-attribute name="title" value="showOutput"></put-attribute>
+				<!-- <put-attribute name="header" value="/WEB-INF/pages/Theme/Template/sideBar/admin/adminhomeMenu.jsp"></put-attribute> -->
+		
+		<put-attribute name="body"
+			value="/WEB-INF/pages/Theme/Admin/showSentSMS.jsp"></put-attribute>
+			
+	</definition>
+	
+	<definition extends="base.definition" name="showreply">
+		<put-attribute name="title" value="showOutput"></put-attribute>
+				<!-- <put-attribute name="header" value="/WEB-INF/pages/Theme/Template/sideBar/admin/adminhomeMenu.jsp"></put-attribute> -->
+		
+		<put-attribute name="body"
+			value="/WEB-INF/pages/Theme/Admin/showreplySms.jsp"></put-attribute>
+			
+	</definition>
+		<definition extends="base.definition" name="viewSubscriptionReport">
+		<put-attribute name="title" value="viewSubscriptionReport"></put-attribute>
+				<!-- <put-attribute name="header" value="/WEB-INF/pages/Theme/Template/sideBar/admin/adminhomeMenu.jsp"></put-attribute> -->
+		
+		<put-attribute name="body"
+			value="/WEB-INF/pages/Theme/Admin/viewSubscriptionReport.jsp"></put-attribute>
+			
+	</definition>
+		<definition extends="base.definition" name="viewSubscriptionRequest">
+		<put-attribute name="title" value="viewSubscriptionRequest"></put-attribute>
+				<!-- <put-attribute name="header" value="/WEB-INF/pages/Theme/Template/sideBar/admin/adminhomeMenu.jsp"></put-attribute> -->
+		
+		<put-attribute name="body"
+			value="/WEB-INF/pages/Theme/Admin/viewSubscriptionRequest.jsp"></put-attribute>
+			
+	</definition>
+	<!-- 	<definition extends="base.definition" name="unsubscribeNumber">
+		<put-attribute name="title" value="unsubscribeNumber"></put-attribute>
+				<put-attribute name="header" value="/WEB-INF/pages/Theme/Template/sideBar/admin/adminhomeMenu.jsp"></put-attribute>
+		
+		<put-attribute name="body"
+			value="/WEB-INF/pages/Theme/Admin/unsubscribeNumber.jsp"></put-attribute>
+			
+	</definition>
+	 -->
+</tiles-definitions>  

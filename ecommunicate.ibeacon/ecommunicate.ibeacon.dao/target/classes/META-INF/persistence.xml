@@ -17,11 +17,12 @@
 			<property name="hibernate.connection.url" value="jdbc:postgresql://localhost:5432/ibeacon" />
 			<property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQLDialect" />
 			<property name="hibernate.listeners.envers.autoRegister" value="false"/>
-			<property name="hibernate.connection.username" value="pgsqluser" />
-			<property name="hibernate.connection.password" value="ht3#3t5p" />
+			<property name="hibernate.connection.username" value="pgsqlUser" />
+			<property name="hibernate.connection.password" value="postgres
+			" />
 			<property name="hibernate.id.new_generator_mappings" value="true" />
-<!-- 				<property name="hibernate.hbm2ddl.auto" value="update"/>
- -->	<!-- 	<property name="hibernate.show_sql" value="true" />
+				<!-- <property name="hibernate.hbm2ddl.auto" value="create"/> -->
+	<!-- 	<property name="hibernate.show_sql" value="true" />
  -->
 				
 				<!-- uncomment generate_statistics line to generate cache statistics -->

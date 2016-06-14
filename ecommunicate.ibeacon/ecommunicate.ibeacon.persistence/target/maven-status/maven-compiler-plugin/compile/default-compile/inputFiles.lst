@@ -1,3 +1,8 @@
-G:\ibeccon\ibeacontest\ecommunicate.ibeacon\ecommunicate.ibeacon.persistence\src\main\java\ecommunicate\ibeacon\persistence\entities\ibecconBase.java
-G:\ibeccon\ibeacontest\ecommunicate.ibeacon\ecommunicate.ibeacon.persistence\src\main\java\ecommunicate\ibeacon\persistence\entities\Retailer.java
-G:\ibeccon\ibeacontest\ecommunicate.ibeacon\ecommunicate.ibeacon.persistence\src\main\java\ecommunicate\ibeacon\persistence\entities\IbecconDevice.java
+G:\ibeacon backup\ibeacon\ecommunicate.ibeacon\ecommunicate.ibeacon.persistence\src\main\java\ecommunicate\ibeacon\persistence\facade\RetailerDaoInterface.java
+G:\ibeacon backup\ibeacon\ecommunicate.ibeacon\ecommunicate.ibeacon.persistence\src\main\java\ecommunicate\ibeacon\persistence\facade\OffersDaoInterface.java
+G:\ibeacon backup\ibeacon\ecommunicate.ibeacon\ecommunicate.ibeacon.persistence\src\main\java\ecommunicate\ibeacon\persistence\entities\ibecconBase.java
+G:\ibeacon backup\ibeacon\ecommunicate.ibeacon\ecommunicate.ibeacon.persistence\src\main\java\ecommunicate\ibeacon\persistence\facade\IbecconDeviceInterface.java
+G:\ibeacon backup\ibeacon\ecommunicate.ibeacon\ecommunicate.ibeacon.persistence\src\main\java\ecommunicate\ibeacon\persistence\entities\IbecconDevice.java
+G:\ibeacon backup\ibeacon\ecommunicate.ibeacon\ecommunicate.ibeacon.persistence\src\main\java\ecommunicate\ibeacon\persistence\entities\Retailer.java
+G:\ibeacon backup\ibeacon\ecommunicate.ibeacon\ecommunicate.ibeacon.persistence\src\main\java\ecommunicate\ibeacon\persistence\utility\JndiLookup.java
+G:\ibeacon backup\ibeacon\ecommunicate.ibeacon\ecommunicate.ibeacon.persistence\src\main\java\ecommunicate\ibeacon\persistence\entities\Offers.java

@@ -11,9 +11,9 @@ import ecommunicate.ibeacon.persistence.facade.OffersDaoInterface;
 import ecommunicate.ibeacon.persistence.facade.RetailerDaoInterface;
 
 public class JndiLookup {
-	private static String EJB_IBEACONDEVICE="java:global/ecommunicate.ibeacon.dao-0.0.1-SNAPSHOT-jar-with-dependencies/ibecconDeviceDao!ecommunicate.ibeacon.persistence.interfaces.IbecconDeviceInterface";
-	private static String EJB_RETAILER="java:global/ecommunicate.ibeacon.dao-0.0.1-SNAPSHOT-jar-with-dependencies/ibecconDeviceDao!ecommunicate.ibeacon.persistence.interfaces.IbecconDeviceInterface";
-	private static String EJB_OFFER="java:global/ecommunicate.ibeacon.dao-0.0.1-SNAPSHOT-jar-with-dependencies/ibecconDeviceDao!ecommunicate.ibeacon.persistence.interfaces.IbecconDeviceInterface";
+	private static String EJB_IBEACONDEVICE="java:global/ecommunicate.ibeacon.dao-0.0.1-SNAPSHOT-jar-with-dependencies/ibecconDeviceDao!ecommunicate.ibeacon.persistence.facade.IbecconDeviceInterface";
+	private static String EJB_RETAILER="java:global/ecommunicate.ibeacon.dao-0.0.1-SNAPSHOT-jar-with-dependencies/RetailerDao!ecommunicate.ibeacon.persistence.facade.RetailerDaoInterface";
+	private static String EJB_OFFER="java:global/ecommunicate.ibeacon.dao-0.0.1-SNAPSHOT-jar-with-dependencies/OfferDao!ecommunicate.ibeacon.persistence.facade.OffersDaoInterface";
 
 	public String getEJB_ibecconDevices() {
 		return EJB_IBEACONDEVICE;

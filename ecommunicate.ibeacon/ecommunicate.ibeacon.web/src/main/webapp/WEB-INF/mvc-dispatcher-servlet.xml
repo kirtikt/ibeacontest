@@ -1,0 +1,79 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:mvc="http://www.springframework.org/schema/mvc" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans     
+        http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+        http://www.springframework.org/schema/mvc 
+        http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd
+        http://www.springframework.org/schema/context 
+        http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+
+	<context:component-scan base-package="ecommunicate.ibeacon.web" />
+	
+	
+
+	<bean
+		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<property name="prefix">
+			<value>/WEB-INF/Theme/</value>
+		</property>
+		<property name="suffix">
+			<value>.jsp</value>
+		</property>
+		<property name="order">
+			<value>1</value>
+		</property>
+		
+		   
+	</bean>
+
+
+	<bean id="viewResolver"
+		class="org.springframework.web.servlet.view.UrlBasedViewResolver">
+
+		<property name="viewClass"
+			value="org.springframework.web.servlet.view.tiles2.TilesView" />
+
+		<property name="order">
+			<value>0</value>
+		</property>
+	</bean>
+
+ <bean class="org.springframework.web.multipart.commons.CommonsMultipartResolver" id="multipartResolver">
+ 
+         <!-- setting maximum upload size -->
+        <property name="maxUploadSize"  >
+ <value>100000</value>       
+        </property>
+ 
+    </bean>
+    
+	<bean class="org.springframework.web.servlet.view.tiles2.TilesConfigurer"
+		id="tilesConfigurer">
+
+		<property name="definitions">
+			<list>
+				<value>/WEB-INF/logintile.xml</value>
+					<value>/WEB-INF/admintiles.xml</value>
+			<!-- 
+				<value>/WEB-INF/client.xml</value>
+				<value>/WEB-INF/resellertiles.xml</value>
+ -->
+			</list>
+		</property>
+
+	</bean>
+
+
+	<mvc:resources mapping="/resources/**" location="/resources/theme/" />
+	<mvc:resources mapping="/assets/**" location="/assets/" />
+
+	<mvc:resources mapping="/assets/**" location="/assets/img/" />
+
+<mvc:resources mapping="/Theme2/**" location="/Theme2/" />
+<mvc:resources mapping="/Theme2/**" location="/Theme2/img/" />
+<mvc:resources mapping="/favicon.ico" location="/favicon.ico" />
+
+	<mvc:annotation-driven />
+</beans>

@@ -28,5 +28,6 @@
         <servlet-name>Resteasy</servlet-name>
         <url-pattern>/ws/*</url-pattern>
     </servlet-mapping>
+
  
 </web-app>

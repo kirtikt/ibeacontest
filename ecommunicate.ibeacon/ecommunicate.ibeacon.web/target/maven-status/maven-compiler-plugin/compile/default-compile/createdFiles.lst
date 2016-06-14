@@ -1,0 +1,8 @@
+ecommunicate\ibeacon\web\controller\customUrlAuthenticationFailureHandler.class
+ecommunicate\ibeacon\web\controller\LoginController.class
+ecommunicate\ibeacon\web\service\LoginService.class
+ecommunicate\ibeacon\web\controller\CustomAuthenticationProvider.class
+ecommunicate\ibeacon\web\fcade\LoginInterface.class
+ecommunicate\ibeacon\web\controller\CustomUrlAuthenticationSuccessHandler.class
+ecommunicate\ibeacon\web\controller\CustomUserDetailsService.class
+ecommunicate\ibeacon\web\controller\AdminController.class
